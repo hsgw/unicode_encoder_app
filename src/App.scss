@@ -33,7 +33,7 @@ main {
 }
 
 .input {
-  margin: 1rem;
+  margin: 1rem 0.5rem;
   // position: relative;
   .textInput {
     box-sizing: border-box;
@@ -47,4 +47,7 @@ main {
 
 .result {
   margin: 1.5rem 0.5rem;
+  .noResult {
+    margin-left: 0.5rem;
+  }
 }

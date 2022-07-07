@@ -11,12 +11,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="title">Unicode Encoder</div>
-        <div className="github">Github</div>
+        <div className="github">
+          <a href="https://github.com/hsgw/unicode_encoder_app">Github</a>
+        </div>
       </header>
       <main>
         <div className="description">
           <h1>Converts characters into Unicode codepoints.</h1>
-          <p>Type and press Enter to convert.</p>
+          <p>Type to convert.</p>
         </div>
         <div className="input">
           <input

@@ -8,12 +8,7 @@ function UnicodeResult({ char }: { char: string }) {
   const binString = ('000000000000000000' + codePoint.toString(2)).slice(-18);
 
   return (
-    <div
-      className="unicodeResult"
-      onClick={(e) => {
-        console.log(codePoint);
-      }}
-    >
+    <div className="unicodeResult">
       <div className="char">{char}</div>
       <div className="code">
         <div className="hex">{`0x${hexString}`}</div>
