@@ -1,0 +1,13 @@
+html {
+  color: #333;
+}
+
+body {
+  margin: 0;
+  font-family: source-han-sans-cjk-ja,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-feature-settings:”palt”;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
